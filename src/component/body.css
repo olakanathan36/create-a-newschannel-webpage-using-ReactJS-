@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+a{
+    cursor: pointer;
+}
+.tag-2 a {
+    color: #FF6F61; 
+    transition: color 0.3s ease-in-out;
+}
+.tag-2 a:hover {
+    color: #D7263D; 
+}
+
+.tag-1{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+
+.header {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.tag-1 img {
+    height: 60px;
+    object-fit: contain;
+}
+
+.tag-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    background-color: #fafafa;
+}
+
+.tag-2 div {
+    padding: 10px;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.tag-2 div:hover .bar {
+    width: 100%;
+}
+
+.bar {
+    width: 0;
+    height: 5px;
+    background-color: #333;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.tag-3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.option-1 a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.option-1 a:hover {
+    color: #e63946;
+}
+.option-2{
+    display: flex;
+}
+.option-2 button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.freetrail-btn {
+    background-color: transparent;
+    color: #e63946;
+    border: 2px solid #e63946;
+}
+
+.subs-btn {
+    background-color: #e63946;
+    color: white;
+}
+
+.login-btn {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.subs-btn:hover, .login-btn:hover {
+    background-color: #f4a261;
+}
+
+.para-dis {
+    display: none;
+}
+
+/* Main Content */
+.adv {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.adv-para {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.newstag {
+    display: flex;
+    margin: 20px 10%;
+    gap: 20px;
+}
+
+.newscontant-1, .newscontant-2, .newscontant-3 {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.newscontant-1 {
+    flex: 2;
+}
+
+.newscontant-2 {
+    flex: 3;
+}
+
+.newscontant-3 {
+    flex: 2;
+}
+
+.title-tag {
+    color: #e63946;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.heading {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.breakingnews-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer-part2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.footer-part2 h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #e63946;
+}
+
+.footer-part2 p {
+    margin: 5px 0;
+    color: #bbb;
+    font-size: 0.9rem;
+}
+
+.footer-part2-5 p, .footer-part2-6 p {
+    font-size: 0.85rem;
+}
+
+.footer-part4 {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.footer-part4 p {
+    margin: 5px 0;
+}
